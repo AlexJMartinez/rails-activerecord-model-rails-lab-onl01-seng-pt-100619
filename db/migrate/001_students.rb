@@ -1,7 +1,7 @@
 class Students < ActiveRecord::Migration
   def change
-    create_table :posts do |t|
-      t.string :title
+    create_table :students do |t|
+      t.string :first_name
       t.text :description
 
       t.timestamps null: false
